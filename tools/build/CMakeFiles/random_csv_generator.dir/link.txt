@@ -1,3 +1,0 @@
-C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\random_csv_generator.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\random_csv_generator.dir/objects.a @CMakeFiles\random_csv_generator.dir\objects1.rsp
-C:\mingw64\bin\c++.exe -Wl,--whole-archive CMakeFiles\random_csv_generator.dir/objects.a -Wl,--no-whole-archive -o random_csv_generator.exe -Wl,--out-implib,librandom_csv_generator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\random_csv_generator.dir\linkLibs.rsp

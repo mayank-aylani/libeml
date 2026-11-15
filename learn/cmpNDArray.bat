@@ -1,0 +1,1 @@
+g++ -I ..\tools\include -I ..\tools\src ndarray.cpp -o ndarray.exe

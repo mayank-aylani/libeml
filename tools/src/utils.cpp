@@ -42,8 +42,8 @@ return strings;
 }
 std::vector<double> split(const std::string &str,const char delimiter)
 {
-vector<double> doubles;
-if(str.length()==0) return strings;
+std::vector<double> doubles;
+if(str.length()==0) return doubles;
 std::stringstream strm(str);
 std::string part;
 while(std::getline(strm,part,delimiter))

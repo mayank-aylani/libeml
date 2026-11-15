@@ -25,6 +25,7 @@ src/utils.cpp
 
 add_executable(random_csv_generator
 src/random_csv_generator.cpp
+)
 
 add_executable(test_split_2
 test/test_split_2.cpp
@@ -34,4 +35,8 @@ src/utils.cpp
 add_executable(min_max_scaler
 src/min_max_scaler.cpp
 src/utils.cpp
+)
+
+add_executable(create_training_and_test_dataset
+src/create_training_and_test_dataset.cpp
 )
